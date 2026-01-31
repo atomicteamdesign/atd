@@ -1,172 +1,141 @@
 # Atoms
 
-_Understanding capability as the fundamental unit of organisational design_
+*Capability as the fundamental unit of organisational design.*
+
+---
 
 ## What Is an Atom?
 
-In Atomic Team Design, an Atom represents a single capability: a skill, competency, or area of expertise that contributes to meaningful work.
+An atom is a single capability — a skill, competency, or area of expertise that contributes to meaningful work.
 
-Atoms are the smallest unit the framework concerns itself with. They are not roles, responsibilities, or tasks. They are the building blocks of what an organisation can actually do.
+Atoms are the smallest unit ATD concerns itself with. They're not roles, responsibilities, or tasks. They're the building blocks of what an organisation can actually do.
 
-Examples of atoms include:
+Examples:
+- A programming language (Kotlin, Python, SQL)
+- A technical discipline (system design, observability, security)
+- A domain expertise (payments, compliance, onboarding)
+- A practice (incident response, user research, technical writing)
 
-- A programming language or technical discipline
-- A design capability
-- A domain or regulatory skill
-- An operational or leadership capability
+Without understanding the atoms you have and the atoms you need, organisational design becomes guesswork.
 
-Without a clear understanding of the atoms present within an organisation, and the atoms required by its outcomes, organisational design becomes abstract and imprecise.
+---
 
-## Why Capability Matters More Than Role
+## Why Capability, Not Role?
 
-Traditional organisational design starts with roles and titles. Atomic Team Design starts with capability.
+Traditional org design starts with roles and titles. ATD starts with capability.
 
-Roles:
-
+**Roles:**
 - Bundle many capabilities together
-- Change meaning across organisations
+- Mean different things in different companies
 - Become outdated faster than the skills they describe
 
-Capabilities:
+**Capabilities:**
+- Are composable — they combine in different ways
+- Are transferable — they move with people
+- Evolve independently of org structure
 
-- Are composable
-- Are transferable
-- Evolve independently of structure
+Two people with the same title may share few atoms. Two people with different titles may share many. Designing around roles hides this. Designing around atoms exposes it.
 
-Two people with the same title may share few meaningful atoms.
+---
 
-Two people with different titles may share many.
+## Atoms Are Contextual
 
-Designing around roles hides this reality. Designing around atoms exposes it.
+The same capability can look different depending on where it's used.
 
-## Atoms Are Contextual and Non-Binary
+"Kubernetes" might mean:
+- Deep platform expertise in an infrastructure team
+- Operational awareness in a product team
+- Theoretical knowledge in a consulting role
 
-An atom is not a universal constant.
+"Risk management" might be:
+- Central and specialised in a compliance function
+- Lightweight and situational in a product squad
+- Embedded in automation elsewhere
 
-The same capability can:
+ATD doesn't try to define a universal list of atoms. What matters is understanding the atoms *your* organisation needs, at the depth *your* context requires.
 
-- Look different in different contexts
-- Require different depth depending on its use
-- Be critical in one team and incidental in another
+---
 
-For example, a capability like “risk management” may be:
+## Proficiency Isn't Binary
 
-- Central and specialised in one team
-- Lightweight and situational in another
-- Embedded within automation elsewhere
+Two people can both "know Kotlin" while differing dramatically in what they can safely be trusted to do with it.
 
-Atomic Team Design does not attempt to define a canonical set of atoms. The framework assumes that capability is contextual by nature.
+Proficiency matters. A useful scale:
 
-## Subatomic Particles: What Makes an Atom Effective
+| Level | Description |
+|-------|-------------|
+| **1 - Learning** | Aware of the topic, actively developing |
+| **2 - Applying** | Can use it with guidance, not yet independent |
+| **3 - Competent** | Works independently, handles typical problems |
+| **4 - Advanced** | Trusted with complex work, supports others |
+| **5 - Expert** | Deep expertise, shapes practice, teaches |
 
-Capabilities do not exist in isolation or at a single level of depth.
+This isn't about ranking people. It's about understanding what you can rely on and where the gaps are.
 
-In practice, an atom’s effectiveness is influenced by three factors:
+---
 
-### Foundational Traits
+## Atoms Decay and Evolve
 
-Enduring characteristics that affect how a capability is learned and applied, such as problem-solving ability, adaptability, or empathy.
+Capabilities aren't permanent.
 
-These traits influence:
+- **Decay**: Unused skills fade. Someone who hasn't written Java in three years isn't the same Java developer they were.
+- **Evolution**: Skills grow through practice and exposure. Adjacent capabilities develop together.
+- **Clustering**: Atoms don't exist in isolation. Someone strong in React likely has adjacent strength in JavaScript, possibly TypeScript, possibly frontend testing.
 
-- Speed of learning
-- Reliability under pressure
-- Ability to apply skills in novel situations
+This matters for planning. A person missing a specific atom might still be well-positioned to acquire it quickly if they have related capabilities. Understanding adjacency is often more useful than exact matching.
 
-### Learned Skills
+---
 
-The concrete knowledge and techniques acquired through education, training, and experience.
+## Capability ≠ Responsibility
 
-These are the most visible part of an atom but not the only one.
+An important distinction: having a capability doesn't mean owning it.
 
-### Proficiency
-
-The depth, confidence, and consistency with which a capability can be exercised.
-
-Proficiency is not static. It grows, decays, and shifts as context changes.
-
-Atomic Team Design treats these elements as inseparable. Two people may nominally share the same capability while differing dramatically in how safely or effectively it can be relied upon.
-
-![Anatomy of an Atom](../images/ATD%20-%20Anatomy%20of%20an%20Atom.jpg)
-
-## Atoms Decay, Evolve, and Cluster
-
-Capabilities are not permanent.
-
-Atoms:
-
-- Decay when unused
-- Evolve through practice and exposure
-- Cluster with adjacent capabilities
-
-Understanding adjacency matters more than exact matching.
-
-For example, a person lacking a specific atom may still be well-positioned to acquire it quickly if they already possess related capabilities. This has significant implications for hiring, learning, and team design.
-
-Atomic Team Design encourages leaders to think in terms of capability neighbourhoods, not isolated skills.
-
-## Ownership, Responsibility, and Capability
-
-An important distinction in Atomic Team Design is that capability does not imply ownership.
-
-A team may:
-
+A team might:
 - Rely on a capability
 - Be affected by its absence
-- Share responsibility for its outcomes
+- Share responsibility for outcomes that depend on it
 
-Without “owning” that capability as a role or function.
+Without "owning" that capability as a defined function.
 
-This distinction helps avoid:
-
+This helps avoid:
 - Overloading teams with implicit expectations
 - Creating artificial silos
-- Assuming capability exists simply because responsibility has been assigned
+- Assuming capability exists because someone has been assigned responsibility
 
-Atoms describe what is possible, not who is accountable.
+Atoms describe what's possible, not who's accountable.
 
-## Common Misinterpretations
+---
 
-### “Atoms are just skills in a skills matrix”
+## Common Mistakes
 
-Skills matrices typically treat skills as:
+### "This is just a skills matrix"
 
-- Binary
-- Static
-- Independently measurable
+Skills matrices typically treat skills as binary checkboxes, static over time, and independently measurable. Atoms are contextual, composed, and interdependent. The difference changes how you make decisions.
 
-Atoms are:
+### "More atoms is always better"
 
-- Contextual
-- Composed
-- Interdependent
+Capability accumulation without purpose creates fragility. A team that "can do everything" often can't do anything well. ATD emphasises fitness for purpose, not maximum coverage.
 
-The difference is not cosmetic; it changes how decisions are made.
+### "We should standardise our atom list"
 
-### “More atoms is always better”
+Some standardisation helps communication. But over-standardising loses the context that makes atoms useful. "Frontend development" as a single atom hides important differences between React, accessibility, and performance optimisation.
 
-Capability accumulation without purpose leads to fragility.
+---
 
-Atomic Team Design emphasises fitness to purpose, not maximal coverage. Excess capability can introduce complexity, coordination overhead, and risk.
+## Why This Matters
 
-## Why Atoms Matter in Practice
+Thinking in atoms changes how you approach:
 
-Thinking in atoms changes how leaders reason about:
+- **Hiring**: What capability are we actually missing?
+- **Team composition**: Do we have what this work requires?
+- **Risk**: Where are we one resignation away from a problem?
+- **Learning**: What should we invest in developing?
+- **Automation**: Which capabilities could be augmented or replaced?
 
-- Hiring versus learning
-- Team composition
-- Structural risk and single points of failure
-- Succession and resilience
-- The safe introduction of automation and AI
+Before changing structure, ATD asks a simpler question: *Do we actually have the capabilities required for what we're trying to do?*
 
-Before changing structure, Atomic Team Design asks a simpler question:
+---
 
-Do we actually have the capabilities required for what we are trying to do?
+## Next
 
-## How This Fits with the Rest of Atomic Team Design
-
-Atoms are the foundation of the framework.
-
-They combine into Molecules, which form Cells, which together make up the Organism.
-
-Understanding atoms is not an academic exercise - it is the prerequisite for intentional organisational design.
+Atoms combine into [Molecules](./molecules.md) — people and services that are compositions of capability.

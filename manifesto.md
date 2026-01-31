@@ -33,13 +33,3 @@ Most change should come from evolving capability and team composition, not const
 ### 6. Constraints shape the design
 
 Regulation, cognitive load, system boundaries, risk tolerance — these aren't obstacles to work around. They're inputs that should actively shape how teams are built.
-
----
-
-## What This Is Not
-
-Atomic Team Design is not a prescriptive org model. It doesn't give you a set of standard team types to copy.
-
-If two organisations using ATD end up looking the same, one of them has done it wrong.
-
-The goal isn't conformity. It's coherence — an organisation whose structure, capabilities, and systems are deliberately designed to evolve together.
