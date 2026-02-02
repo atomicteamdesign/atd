@@ -122,7 +122,7 @@ Some standardisation helps communication. But over-standardising loses the conte
 
 ---
 
-## Why This Matters
+## Why is this important?
 
 Thinking in atoms changes how you approach:
 
