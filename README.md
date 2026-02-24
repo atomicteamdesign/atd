@@ -14,7 +14,7 @@ Atomic Team Design is a way of thinking about organisations through the lens of 
 
 ## The Hierarchy
 
-ATD borrows its structure from biology — not as a metaphor for its own sake, but because it provides a useful way to reason about complex systems.
+Atomic Team Design borrows its structure from biology — not as a metaphor for its own sake, but because it provides a useful way to reason about complex systems.
 
 | Level | Concept | What it represents |
 |-------|---------|-------------------|
